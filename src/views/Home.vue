@@ -1,6 +1,5 @@
 <template>
 <div>
-    <h2>Second Build by WB</h2>
     <div class="d-flex mt-4 justify-content-between">
 
         <button @click="getPrevArticles()" :disabled="articles.prev_page_url === null" class="btn btn-warning">Prev Page</button>
