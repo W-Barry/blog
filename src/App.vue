@@ -18,11 +18,11 @@ import Navbar from '@/components/Navbar'
 
 export default {
   name: 'app',
-  mounted() {
+  /*mounted() {
     //this.$router.push('/');
     this.$router.replace('/');
     
-  },
+  },*/
   components: {
     
     Navbar,
